@@ -5,7 +5,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
     return (
         <>
-            <h1 className={styles["main-heading"]}>Top 8 Popular Cryptocurrencies</h1>
+            <h1 className={styles["main-heading"]}>
+                Top 8 Popular Cryptocurrencies
+                <i class="fas fa-coins"></i>
+            </h1>
             <Home />
             <Footer />
         </>
