@@ -1,11 +1,25 @@
 .home-section ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.home-section {
+    display: flex;
+    gap: 20px;
+}
+
+.home-section ul li {
+    border: 2px solid black;
+    padding: 5px 20px;
+    width: 350px;
+    background-color: #dcf5ff;
 }
 
 .home-image {
     width: 550px;
-    position: absolute;
-    right: 0%;
+    margin-left: 50px;
 }
 
 .logo-img {

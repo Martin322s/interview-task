@@ -1,8 +1,8 @@
-import styles from "./styles/Home.module.css";
-import coin from "./images/coin.jpg";
 import { useEffect, useState } from "react";
 import { getCryptoCurrencies } from "../../services/api-calls";
+import styles from "./styles/Home.module.css";
 import { cryptoLogos } from "./Crypto Logos/logos";
+import coin from "./images/coin.jpg";
 
 const Home = () => {
     const [currencies, setCurrencies] = useState([]);
@@ -19,7 +19,7 @@ const Home = () => {
                         })));
             });
     }, []);
-    console.log(currencies);
+
     return (
         <section className={styles["home-section"]}>
             <img className={styles["home-image"]} src={coin} alt="coin" />
