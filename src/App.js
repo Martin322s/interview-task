@@ -6,8 +6,8 @@ function App() {
     return (
         <>
             <h1 className={styles["main-heading"]}>
-                Top 8 Popular Cryptocurrencies
-                <i class="fas fa-coins"></i>
+                Top 6 Popular Cryptocurrencies
+                <i className="fas fa-coins"></i>
             </h1>
             <Home />
             <Footer />

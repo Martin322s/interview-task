@@ -1,5 +1,24 @@
+.home-section ul {
+    list-style-type: none;
+}
+
 .home-image {
     width: 550px;
     position: absolute;
     right: 0%;
+}
+
+.logo-img {
+    width: 90px;
+    height: 90px;
+}
+
+.item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
