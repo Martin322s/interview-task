@@ -43,7 +43,7 @@ const Home = () => {
                             <li key={x.name}>
                                 <div className={styles["item"]}>
                                     <img className={styles["logo-img"]} src={x.logo} alt={x.logo} />
-                                    {x.name} --- {x.price}$ (USD)
+                                    {x.name} <i className="fas fa-arrow-right"></i> {x.price}$ (USD)
                                 </div>
                             </li>
                         );
