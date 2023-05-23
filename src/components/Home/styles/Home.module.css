@@ -18,13 +18,13 @@
 }
 
 .home-image {
-    width: 550px;
+    width: 520px;
     margin-left: 50px;
 }
 
 .logo-img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 }
 
 .item {
@@ -35,4 +35,8 @@
     font-size: 20px;
     margin-bottom: 10px;
     text-decoration: underline;
+}
+
+.home-heading {
+    text-align: center;
 }
