@@ -19,6 +19,8 @@ The Home component consists of the following parts:
 - API call and data fetching
 - Rendering the component
 - State Initialization
+
+
 The component initializes its state using the useState hook. The state object has two properties:
 
 - currencies: An array that holds the cryptocurrency data.
