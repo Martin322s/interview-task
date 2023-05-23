@@ -9,6 +9,7 @@ const Home = () => {
         currencies: [],
         date: ""
     });
+    
     let currentDate = new Date();
     let year = currentDate.getFullYear();
     let month = currentDate.getMonth() + 1;
