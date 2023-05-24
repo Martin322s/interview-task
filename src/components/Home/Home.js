@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { getCryptoCurrencies } from "../../services/api-calls";
 import styles from "./styles/Home.module.css";
+import { getCryptoCurrencies } from "../../services/api-calls";
 import { cryptoLogos } from "./Crypto Logos/logos";
 import coin from "./images/coin.jpg";
 
